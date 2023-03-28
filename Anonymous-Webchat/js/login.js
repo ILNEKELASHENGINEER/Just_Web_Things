@@ -14,3 +14,15 @@
 			}, false)
 		})
 })()
+var a;
+var b;
+function login(){
+	a=document.getElementById("email").value;
+	b=document.getElementById("password").value;
+	if((a=='nekelash@gmail.com')&&(b=='neke')){
+		alert("Login Successfull");
+	}
+	else{
+		alert("Invalid Credentials");
+	}
+}
